@@ -1,0 +1,12 @@
+p {
+    text-align:center;
+    text-shadow: 0.5cm;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    font-family: cursive;
+}
