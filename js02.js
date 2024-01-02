@@ -11,3 +11,11 @@ function base()
 
 }
 console.log("Hello");
+
+function sendMail() {
+  var email = document.getElementById("email").value;
+  var subject = document.getElementById("subject").value;
+  var body = document.getElementById("body").value;
+
+  window.location.href = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+}
